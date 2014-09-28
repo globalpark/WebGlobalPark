@@ -92,7 +92,7 @@
             <div style="width:100%; height:80px; position:absolute; top:0; background-color:white;"><h1 class="browsehappy centered">El navegador que estás utilizando es <strong>MUY viejo</strong>. Por favor <a href="http://browsehappy.com/">actualiza tu navegador</a>.</h1></div>
         <![endif]-->
 
-    <div id="entrar" class="row" style="width:100%; margin-left:0; "><a href="#about"><img class="img-responsive center-block centered" src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/flecha_entrar.svg" width="40px" /></a></div>
+    <div id="entrar" class="row" style="width:100%; margin-left:0; "><a href="#about"><img id="scroll-down" class="img-responsive center-block centered" src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/flecha_entrar.svg" width="40px" /></a></div>
 
     <div id="site-header">
 
