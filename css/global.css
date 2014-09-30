@@ -107,7 +107,7 @@ animation: 'move' 1.2s infinite 0.4s alternate;
 
 #bs-navbar-collapse, .navbar-collapse, #nav-links, #nav-links>li, #nav-links>li>a{
 	background-color: rgb(255, 255, 255);
-	background-color: rgba(255, 255, 255, .95);
+	/* background-color: rgba(255, 255, 255, .95); */
 }
 
 #logo-menu{
