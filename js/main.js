@@ -61,7 +61,7 @@ $(document).ready( function() {
 	height = $( window ).height();
 	width = $( window ).width();
 	h1 = $('#frases-about').height();
-	h1 = h1 * .85;
+	h1 = h1 * .5;
 	h2 = (height/2)*.8;
 	h3 = height-100;
 	$('#home').height(height);
@@ -74,11 +74,17 @@ $(document).ready( function() {
 	if(height > 700){
 		$('#about').height(height - 65);
 		$('#contenido-about').height(height - 165);
-		$('#frases-about').css("margin-top", h1 + "px");
+		//$('#frases-about').css("margin-top", ((height-165) - h1)/2 + "px");
+		$('#frases-about').css("margin-top", "0px");
+		//$('#tagline1').css("margin-top", -((((height-165) - h1)/2)-80) + "px");
+		$('#tagline1').css("margin-top", ( (height-165) - $('#tagline1').height() )/2 + "px");
+		$('#tagline2').css("margin-top", ( (height-165) - $('#tagline2').height() )/2 + "px");
 		$('#about').width(width);
 	}else{
 		$('#about').height(650);
 		$('#about').height(650 - 165);
+		$('#tagline1').css("margin-top", ( (650-165) - $('#tagline1').height() )/2 + "px");
+		$('#tagline2').css("margin-top", ( (650-165) - $('#tagline2').height() )/2 + "px");
 		$('#about').width(width);
 	}
 
@@ -112,11 +118,15 @@ $(window).resize( function() {
 	if(height > 700){
 		$('#about').height(height - 65);
 		$('#contenido-about').height(height - 165);
-		$('#frases-about').css("margin-top", h1 + "px");
+		$('#frases-about').css("margin-top", "0px");
+		$('#tagline1').css("margin-top", ( (height-165) - $('#tagline1').height() )/2 + "px");
+		$('#tagline2').css("margin-top", ( (height-165) - $('#tagline2').height() )/2 + "px");
 		$('#about').width(width);
 	}else{
 		$('#about').height(650);
 		$('#about').height(650 - 165);
+		$('#tagline1').css("margin-top", ( (650-165) - $('#tagline1').height() )/2 + "px");
+		$('#tagline2').css("margin-top", ( (650-165) - $('#tagline2').height() )/2 + "px");
 		$('#about').width(width);
 	}
 
