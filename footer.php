@@ -4,7 +4,7 @@
         <div class="container" style="margin-top: 37px;">
           <div class="row" style="width:100%;">
             <h1 class="centered"><img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/logo_pie.png" class="centered img-responsive" width="330px"></h1>
-            <h4 class="centered Roboto" style="margin-top: 35px; margin-bottom:10px;">© 2014 Global Park. Todos los derechos reservados.</h4>
+            <h4 class="centered Roboto" style="margin-top: 35px; margin-bottom:10px;">© 2014 Parque Visual S.A. de C.V. Todos los derechos reservados.</h4>
           </div>
         </div>
       </footer>
