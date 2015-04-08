@@ -301,7 +301,6 @@ animation: 'move' 1.2s infinite 0.4s alternate;
 /* =============================Contacto================================== */
 
 #contacto{
-	height: 630px;
 	background-color: #5b5b5b;
 	color: #f8f8f8;
 	margin-top: -20px;
@@ -317,6 +316,11 @@ animation: 'move' 1.2s infinite 0.4s alternate;
 
 #contacto a:hover{
 	color: #dfdfdf;
+}
+
+#contacto .container{Ã
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #contactoP{
