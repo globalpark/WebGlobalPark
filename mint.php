@@ -109,12 +109,6 @@
                 </div>
 
                 <div class="centered">
-                  <div style="height:30px; width: 200px; display:block; margin-top:20px; margin-bottom:10px;" class="centered">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/phone.svg" style="float:left; margin-right:3px; verticla-align: middle;" height="24px"><p style="float: right; font-size:20px;" class="">+52 (55) 1209 1221 </p>
-                  </div>
-                </div>
-
-                <div class="centered">
                   <div style="height:20px; width: 90px; display:block; margin-top:30px; margin-bottom:10px;" class="centered">
                     <a href="https://www.facebook.com/md.globalpark" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/facebook.svg" style="float:left; margin-right:3px;" width="40px"></a>
                     <a href="https://twitter.com/GlobalParkMX" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/twitter.svg" style="float:right; margin-right:3px;" width="40px"></a>

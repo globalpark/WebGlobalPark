@@ -373,26 +373,10 @@
           </div>
 
           <div class="row">
-            <div class="centered">
-              <div style="height:30px; width: 260px; display:block; margin-top:20px; margin-bottom: 0px;" class="centered">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/location.svg" style="float:left; margin-right:3px;" width="20px"><p style="float: right; font-size:20px; margin-bottom: 2px;" class="">Hacienda la Antigua 65</p>
-              </div>
-            </div>
-
-            <div class="row" style="margin:0 0 0 0;">
-            <p class="centered " style="font-size:20px; margin-bottom: 0px;">Huixquilucan</p>
-            <p class="centered " style="font-size:20px; margin-bottom: 0px;">Estado de México</p>
-            </div>
 
             <div class="centered">
               <div style="height:30px; width: 280px; display:block; margin-top:20px; margin-bottom:10px;" class="centered">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/sobre.svg" style="float:left; margin-right:3px;" height="24px"><p style="float: right; font-size:20px;" class=""><a class="" href="mailto:contacto@globalpark.mx" style="decoration:">contacto@globalpark.mx</a></p>
-              </div>
-            </div>
-
-            <div class="centered">
-              <div style="height:30px; width: 200px; display:block; margin-top:20px; margin-bottom:10px;" class="centered">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/PiezasPagina/phone.svg" style="float:left; margin-right:3px; verticla-align: middle;" height="24px"><a href="tel:+52 (55) 1209 1221"><p style="float: right; font-size:20px;" class="">+52 (55) 1209 1221 </p></a>
               </div>
             </div>
 
